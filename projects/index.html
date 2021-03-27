@@ -1,0 +1,25 @@
+---
+layout: page
+current: about
+title: プロジェクト
+navigation: true
+logo: 'assets/images/ghost.png'
+class: page-template
+subclass: 'post page'
+---
+
+<section class="hero" style="background-image: url(page.logo)">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<p class="subtext editable">こんな活動をしています。</p>
+		</div>
+	</div>
+</section>
+
+<section class="pad">
+	<div class="container">
+		<ul class="projects">
+			{%  include project-card.html %}
+		</ul>
+	</div>
+</section>

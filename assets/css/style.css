@@ -1,0 +1,40 @@
+
+.news-feed .post-card {
+    flex: 1 1 auto;
+    margin: 0 10px 10px;
+    min-height: 60px;
+    border-radius: 5px;
+}
+.news-feed .post-card-image {
+    width: 60px;
+    height: 60px;
+    background: var(--lightgrey) no-repeat center center;
+    background-size: cover;
+}
+
+.news-feed .post-card-content {
+    flex-direction: row;
+    justify-content: start;
+}
+
+.news-feed .post-card-image-link {
+    display: flex;
+    flex: 0 0 auto;
+    border-radius: 5px 0 0 5px;
+}
+
+.news-feed .post-card-content-link {
+    display: flex;
+    flex: 1 1 auto;
+    padding: 10px;
+}
+
+.news-feed .post-card-footer {
+    display: flex;
+    flex: 0 0 auto;
+    padding: 10px;
+}
+
+i.material-icons {
+    font-size: 0.8em;
+}

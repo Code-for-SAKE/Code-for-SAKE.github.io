@@ -29,11 +29,16 @@ into the {body} of the default.hbs template -->
 <!-- The main content area -->
 <main id="site-main" class="site-main outer" role="main">
     <div class="inner">
-
         <div class="post-feed">
-            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
-            {%  include post-card.html %}
+            {%  include topics-card.html %}
         </div>
-
     </div>
+    <div class="inner">
+        <h2><i class="material-icons">new_releases</i>NEWS</h2>
+        <div class="news-feed">
+            <!-- The tag below includes the markup for each post - partials/post-card.hbs -->
+            {%  include news-card.html %}
+        </div>
+    </div>
+
 </main>

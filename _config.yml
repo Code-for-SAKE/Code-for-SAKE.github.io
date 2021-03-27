@@ -1,19 +1,17 @@
 # Jekyll configuration
 markdown: kramdown
 highlighter: rouge
-paginate: 100 # it will paginate after this number
-language: 'en-uk'
+paginate: 10 # it will paginate after this number
+language: 'ja-jp'
 words_per_minute: 200
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
 baseurl: /
 
 # Website info
-title: Ghost
-description: The professional publishing platform
+title: Code for SAKE
+description: 日本酒の発酵技術や酒蔵をITで支えたい
 cover: assets/images/blog-cover.jpg
-logo: assets/images/blog-icon.png
-logo_dark: assets/images/favicon.png
 favicon: assets/images/favicon.png
 CNAME: #add cname for website to be created
 
@@ -23,7 +21,7 @@ subscribers: True # you need to connect an external service for this to work,
 # if 'True' the submit button is disabled for now, but you can change that
 # by editing `_includes/subscribe-form.html`
 twitter: tryghost # replace by your username
-facebook: ghost # replace by your username
+facebook: groups/486830868499290 # replace by your username
 
 # Disqus
 disqus: False
@@ -76,7 +74,6 @@ production_url:  https://jekyller.github.io/jasper2/
 source_url:  https://github.com/jekyller/jasper2/
 
 exclude:
-  - assets/css
   - node_modules
   - vendor
   - .travis.yml
@@ -93,3 +90,26 @@ exclude:
   - changelog.md
   - "*.Rmd"
   - .git*
+
+collections:
+  projects:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  -
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "post"

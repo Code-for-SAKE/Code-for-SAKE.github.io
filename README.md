@@ -1,3 +1,11 @@
+# Code for SAKE 公式Webサイト
+これはCode for SAKEの公式Webサイト、およびそのリソースです。
+
+# 環境
+ホスティング: GitHub Pages
+フレームワーク: Jekyll
+デザインテーマ: Jasper2
+
 ## Jasper2
 
 [![Build Status](https://travis-ci.org/jekyller/jasper2.svg?branch=master)](https://travis-ci.org/jekyller/jasper2)
