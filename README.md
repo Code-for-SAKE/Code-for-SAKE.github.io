@@ -9,7 +9,10 @@ bootstrapをsassでカスタマイズできる環境として
 GitHub Pagesをローカルでテストできる環境で作成しました。
 https://docs.github.com/ja/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll
 
-
+```
+bundle install
+bundle exec jekyll serve
+```
 
 Jekyll 4.0 comes with some major changes, notably:
 

@@ -1,0 +1,10 @@
+title: Code for SAKE       #<- 公開するサイトタイトル
+email:              #<- 自分のEmail
+description: Code for SAKEのWebサイトです。  # サイトの説明
+
+# baseurl と url を GitHub Pages のリポジトリに合わせる。 
+baseurl: "/"
+url: "https://code-for-sake.github.io"
+
+sass:
+  style: compressed
